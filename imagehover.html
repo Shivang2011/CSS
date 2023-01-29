@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                position: relative;
+                width: 50%;
+            }
+            .image{
+                display: block;
+                height: auto;
+                width: 100%;
+            }
+            .overlay{
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                position: absolute;
+                width: 100%;
+                opacity: 0;
+                height: 100%;
+                transition: s;
+                background-color: #de8d5f;
+            }
+            .container:hover .overlay{
+                opacity: 1;
+            }
+            .i{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                font-size: 20px;
+                color: #8de6;
+                -webkit-transform: translate(-50%,-50%);
+                  -moz-transform: translate(-50%,-50%);
+                   -ms-transform: translate(-50%,-50%);
+                       transform: translate(-50%,-50%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="C:\Users\Asus\OneDrive\Desktop\MY TOUR\assets\download (3).jfif" alt="Cake" class="image">
+            <div class="overlay">
+                <div class="i"><video src="C:\Users\Asus\Downloads\Waterfall - 37088.mp4" controls width="500px" height="500px" ></video></div>
+            </div>
+        </div>
+    </body>
+</html>
